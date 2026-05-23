@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_selecte_liens",
+  "info": {
+    "displayName": "lien"
+  },
+  "options": {},
+  "attributes": {
+    "lien": {
+      "type": "string"
+    },
+    "legende": {
+      "type": "string"
+    },
+    "annonce": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::annonce.annonce"
+    }
+  },
+  "config": {}
+}
